@@ -117,10 +117,12 @@ class _LoginPageState extends State<LoginPage> {
 
       // FIXME 用了 GETX 托管路由跳转后, 不需要传入 context
       // NavigatorUtil.goToHome(context);
+      NavigatorUtil.goToHome();
 
     } catch(e){
       // FIXME 用了 GETX 托管路由跳转后, 不需要传入 context
       // NavigatorUtil.goToHome(context);
+      NavigatorUtil.goToHome();
       print('登录失败 e: $e');
     }
   }
